@@ -1,7 +1,83 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World and Goodbye!"
+    - name: 1 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 2 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 3 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 4 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 5 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 6 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 7 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 8 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 9 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 10 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 11 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 12 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 13 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 14 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 15 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 16 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 17 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 18 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 19 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 20 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
 
