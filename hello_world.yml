@@ -81,3 +81,82 @@
       pause:
         minutes: 1
 
+    - name: 21 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 22 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 23 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 24 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 25 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 26 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 27 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 28 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 29 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 30 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 31 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 32 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 33 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 34 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 35 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 36 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 37 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 38 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 39 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
+
+    - name: 40 Pause for 1 minute to build app cache
+      pause:
+        minutes: 1
