@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: all
+  hosts: localhost
   tasks:
     - name: 1 Pause for 1 minute to build app cache
       pause:
