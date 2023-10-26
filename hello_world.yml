@@ -13,15 +13,13 @@
       debug:
         var: ansible_version_output.stdout_lines  # Display the saved output
 
-    - name: Display OS Details
-      debug:
-        var: ansible_facts['ansible_distribution']  # Display the OS distribution
-      when: ansible_facts['ansible_distribution'] is defined
+    - name: Gather Docker Host OS Details
+      command: cat /etc/*release  # Replace <container_name_or_id> with your Docker container
+      register: os_release_output
 
-    - name: Display OS Version
+    - name: Display Docker Host OS Details
       debug:
-        var: ansible_facts['ansible_distribution_version']  # Display the OS version
-      when: ansible_facts['ansible_distribution_version'] is defined
+        var: os_release_output.stdout_lines
 
     - name: 2 Pause for 1 minute to build app cache
       pause:
