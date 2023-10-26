@@ -1,9 +1,6 @@
 - name: Hello World Sample
   hosts: localhost
   tasks:
-    - name: 1 Pause for 1 minute to build app cache
-      pause:
-        minutes: 1
 
     - name: Check Ansible Version
       command: ansible --version
