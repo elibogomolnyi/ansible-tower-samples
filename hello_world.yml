@@ -11,7 +11,7 @@
         var: ansible_version_output.stdout_lines  # Display the saved output
 
     - name: Gather Docker Host OS Details
-      command: uname -a 
+      command: cat /etc/os-release 
       register: os_release_output
 
     - name: Display Docker Host OS Details
