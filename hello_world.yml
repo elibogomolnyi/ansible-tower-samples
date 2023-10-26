@@ -5,6 +5,24 @@
       pause:
         minutes: 1
 
+    - name: Check Ansible Version
+      command: ansible --version
+      register: ansible_version_output  # Save the command output to a variable
+
+    - name: Display Ansible Version
+      debug:
+        var: ansible_version_output.stdout_lines  # Display the saved output
+
+    - name: Display OS Details
+      debug:
+        var: ansible_facts['ansible_distribution']  # Display the OS distribution
+      when: ansible_facts['ansible_distribution'] is defined
+
+    - name: Display OS Version
+      debug:
+        var: ansible_facts['ansible_distribution_version']  # Display the OS version
+      when: ansible_facts['ansible_distribution_version'] is defined
+
     - name: 2 Pause for 1 minute to build app cache
       pause:
         minutes: 1
